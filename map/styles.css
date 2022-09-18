@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    color: #ffffff;
+    background: #ffcc00;
+}
+
+#stationMap {
+    height: 89vh;
+}
+
+#navigation {
+    font-size: 30px;
+    padding: 21px 0;
+}
+
+#navigation a {
+    padding: 10px;
+    cursor: pointer;
+}
+
+#navigation a.active {
+    color: #3e3e3e;
+    font-weight: bold;
+}
+
+.chr-marker span {
+    width: 1.2rem;
+    height: 1.2rem;
+    display: block;
+    left: -1.2rem;
+    top: -1.2rem;
+    position: relative;
+    border-radius: 3rem 3rem 0;
+    transform: rotate(45deg);
+    border: 1px solid #ffffff;
+}
+
+div.destination-marker span {
+    width: 1.6rem;
+    height: 1.6rem;
+    left: -1.6rem;
+    top: -1.6rem;
+    background-color: #ffffff;
+    background-image:
+        linear-gradient(45deg, #000000 25%, transparent 25%),
+        linear-gradient(-45deg, #000000 25%, transparent 25%),
+        linear-gradient(45deg, transparent 75%, #000000 75%),
+        linear-gradient(-45deg, transparent 75%, #000000 75%);
+    background-size: 20px 20px;
+    background-position: 0 0, 0 10px, 10px -10px, -10px 0px;
+}
+
+.leaflet-control {
+    background: #ffffff;
+    background: rgba(255, 255, 255, 0.8) !important;
+    color: #333333;
+    padding: 6px 8px;
+    border: 0 !important;
+    border-radius: 0 !important;
+}
+
+.legend {
+    width: 100px;
+}
+
+.legend-item {
+    width: 1rem;
+    height: 1rem;
+    display: inline-block;
+    border-radius: 3rem 3rem 0;
+    transform: rotate(45deg);
+    border: 1px solid #ffffff;
+}

@@ -1,0 +1,18 @@
+# Path to the station data CSV
+station_data_path: ../data/vvs_haltestelle_j22.csv
+# Path to JSON results
+json_data_path: ../data/data.json
+# Path to JavaScript dict results
+js_data_path: ../data/data.js
+# Only show stations within the following fare zones
+fare_zones:
+    - "1"
+    - "2"
+    - "10"
+    - "20"
+# Date for which trips shall be evaluated
+trip_date: 2022-10-01 10:15:00
+# The destination stations' IDs
+destination_stations:
+    - "de:08111:6112"
+    - "de:08111:6022"
